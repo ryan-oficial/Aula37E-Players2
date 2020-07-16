@@ -9,15 +9,16 @@ namespace Aula37ASP_E_Players.Models
         /// Cria o csv 
         /// </summary>
         /// <param name="PATH"></param>
-        public void CreateFolderAndFile(string PATH){
-            string folder  = PATH.Split("/")[0];
+        public void CreateFolderAndFile(string _path){
+            string folder   = _path.Split("/")[0];
+            string file     = _path.Split("/")[1];
 
             if(!Directory.Exists(folder)){
                 Directory.CreateDirectory(folder);
             }
 
-            if(!File.Exists(PATH)){
-                File.Create(PATH).Close();
+            if(!File.Exists(_path)){
+                File.Create(_path).Close();
             }
         }
         public List<string> ReadAllLinesCSV(string PATH){
