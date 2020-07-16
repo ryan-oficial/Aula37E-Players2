@@ -34,3 +34,4 @@ C:\Users\CasadoNotebook\Desktop\PrimeiroPOO\Aula37ASP_E-Players\obj\Debug\netcor
 C:\Users\CasadoNotebook\Desktop\PrimeiroPOO\Aula37ASP_E-Players\obj\Debug\netcoreapp3.1\Aula37ASP_E-Players.pdb
 C:\Users\CasadoNotebook\Desktop\PrimeiroPOO\Aula37ASP_E-Players\obj\Debug\netcoreapp3.1\Aula37ASP_E-Players.csproj.CopyComplete
 C:\Users\CasadoNotebook\Desktop\PrimeiroPOO\Aula37ASP_E-Players\obj\Debug\netcoreapp3.1\Razor\Views\Equipe\Index.cshtml.g.cs
+C:\Users\CasadoNotebook\Desktop\PrimeiroPOO\Aula37ASP_E-Players\obj\Debug\netcoreapp3.1\Razor\Views\Noticia\Index.cshtml.g.cs
