@@ -26,7 +26,8 @@
             <tr>
                 <td>@e.IdNoticia</td>
                 <td>@e.Titulo</td>
-                <td>@e.Imagem</td>
+                <td><img src="/img/Noticias/@e.Imagem" alt="Imagem da Notícia @e.Titulo"></td>
+                <td><a asp-area="" asp-controller="Noticia" asp-action="Excluir" asp-route-id="@e.IdNoticia"><i class="fas fa-trash"></i></a></td>
             </tr>
         }
         </tbody>
